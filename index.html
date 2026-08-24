@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eadbd0">
+  <title>Racha & Sidali — Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="petals" aria-hidden="true"></div>
+
+  <button class="music-btn" id="musicBtn" aria-label="Activer la musique">♪</button>
+  <audio id="music" loop>
+    <!-- Ajoute ton fichier music.mp3 dans le dossier pour utiliser Love Story -->
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <div class="ornament">✦</div>
+        <h1>Racha <span>&</span> Sidali</h1>
+        <p class="intro">Deux cœurs, une histoire,<br>un amour pour toujours…</p>
+        <div class="date">28 · 11 · 2026</div>
+        <a class="scroll-btn" href="#invitation">Découvrir l'invitation <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="section invitation" id="invitation">
+      <p class="eyebrow">AVEC TOUT NOTRE AMOUR</p>
+      <h2>Nous nous marions</h2>
+      <div class="line"></div>
+      <p class="text">
+        Racha & Sidali ont le plaisir de vous inviter
+        à partager avec eux le plus beau jour de leur vie.
+      </p>
+
+      <div class="details-grid">
+        <article class="detail">
+          <div class="icon">♡</div>
+          <p class="label">DATE</p>
+          <h3>Samedi<br>28 novembre 2026</h3>
+        </article>
+        <article class="detail">
+          <div class="icon">◷</div>
+          <p class="label">HEURE</p>
+          <h3>À partir de<br>15h30</h3>
+        </article>
+        <article class="detail">
+          <div class="icon">⌖</div>
+          <p class="label">LIEU</p>
+          <h3>Salle des Fêtes<br>Bois des Cars</h3>
+          <p class="small">Dély Ibrahim</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow">LE GRAND JOUR APPROCHE</p>
+      <h2>Compte à rebours</h2>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Jours</span></div>
+        <div><strong id="hours">00</strong><span>Heures</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Secondes</span></div>
+      </div>
+    </section>
+
+    <section class="section story">
+      <div class="story-card">
+        <p class="eyebrow">NOTRE HISTOIRE</p>
+        <h2>Un nouveau chapitre</h2>
+        <div class="line"></div>
+        <p class="text">
+          Deux chemins qui se rencontrent, deux cœurs qui choisissent
+          d'avancer ensemble et une nouvelle aventure qui commence.
+          Aujourd'hui, nous avons la joie de célébrer notre amour
+          entourés de ceux qui nous sont chers.
+        </p>
+        <div class="signature">Racha <span>&</span> Sidali</div>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <p class="eyebrow">NOS SOUVENIRS</p>
+      <h2>Quelques moments</h2>
+      <div class="gallery-grid">
+        <div class="photo photo-1"><span>R</span></div>
+        <div class="photo photo-2"><span>&</span></div>
+        <div class="photo photo-3"><span>S</span></div>
+      </div>
+      <p class="hint">Les photos pourront être remplacées par vos propres souvenirs.</p>
+    </section>
+
+    <section class="section location">
+      <p class="eyebrow">RENDEZ-VOUS</p>
+      <h2>Le lieu de notre mariage</h2>
+      <div class="venue">
+        <div class="venue-icon">⌖</div>
+        <h3>Salle des Fêtes Bois des Cars</h3>
+        <p>Dély Ibrahim, Alger</p>
+        <a class="map-btn" href="https://www.google.com/maps/search/?api=1&query=Salle%20des%20F%C3%AAtes%20Bois%20des%20Cars%20Dely%20Ibrahim" target="_blank" rel="noopener">
+          Voir l'itinéraire
+        </a>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="final-content">
+        <div class="ornament">✦</div>
+        <p class="eyebrow">NOUS AVONS HÂTE</p>
+        <h2>de célébrer<br>avec vous</h2>
+        <p>Votre présence rendra cette journée encore plus belle.</p>
+        <div class="signature">Racha <span>&</span> Sidali</div>
+        <p class="final-date">28 · 11 · 2026</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
