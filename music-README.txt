@@ -1,0 +1,1 @@
+Pour ajouter Love Story : place ton fichier audio nommé music.mp3 dans ce dossier, à côté de index.html. Utilise uniquement un fichier que tu as le droit d'utiliser.
